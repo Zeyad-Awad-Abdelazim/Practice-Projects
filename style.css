@@ -1,0 +1,88 @@
+body
+{
+    background-image: url('Asset\ 1.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container h1
+{
+    background-color: cadetblue;
+    width:200px;
+}
+
+ul
+{
+    list-style-type: none;
+    overflow: hidden;
+    width: 500px;
+    text-align: right;
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+}
+
+li a:hover
+{
+    background-color: #ee2a7b;
+}
+#Active
+{
+    background-color: #ee2a7b;
+}
+
+.container2
+{
+    position: relative;
+    text-align: center;
+    top: 180px;
+}
+h2
+{
+    color: white;
+    font-family: cinzel;
+    font-size: 70px;
+    margin: 0px;
+}
+#para1
+{
+    color: white;
+    font-family: sans-serif;
+    margin: 0px 125px 0px;
+}
+#button
+{
+    margin-top: 10px;
+    border-radius: 20px;
+    border: solid #ee2a7b 6px;
+    padding: 10px 30px;
+    background-color: #2a82ee;
+    color: azure;
+}
+#button:hover
+{
+    background-color: #ee2a2a;
+    color: black;
+    border-color: black;
+}
+#CA
+{
+    text-decoration-line: underline ;
+    margin-top: 10px;
+    color: aqua;
+}
